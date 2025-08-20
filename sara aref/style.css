@@ -1,0 +1,46 @@
+body{
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+body::before{
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* shared seaction */
+h2{
+  text-align: center;
+  margin-top: 200px;
+}
+.text-black{
+  color: black;
+}
+/* end of shared section */
+body{
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sara{
+  font-size: 50px;
+  text-align: center;
+  color:blue;
+}
+p{
+  text-align: center;
+}
+.aref{
+  margin-block: 100px;
+  margin-inline: 575px;
+  background-color: azure;
+  padding-block: 10px;
+  padding-inline: 10px;
+  border-radius: 20px;
+  border: 2px solid orange;
+}
